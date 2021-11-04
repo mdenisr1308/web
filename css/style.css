@@ -5,10 +5,10 @@ body {
     width: 80%;
     margin: 0 auto;
     box-shadow: 0 0 20px grey;
+    background-color: rgb(247, 238, 226);
 }
-/* fdsglksjdfrñlgk */
 header {
-    background-color: #0092BE;
+    background-color: #EC5A1E;
     padding: 16px;
 }
 header img {
@@ -17,15 +17,17 @@ header img {
 nav {
     width: 20%;
     float: left;
+    background-color:  rgb(247, 238, 226);
 }
 #contenido {
     width: 80%;
     float: right;
     padding-bottom: 24px;
+    background-color: rgb(247, 238, 226);
 }
 footer {
-    background-color: #0092BE;
-    color: rgb(8, 4, 56);
+    background-color: #EC5A1E;
+    color: black;
     text-align: center;
     font-size: 30px;
     padding: 6px;
@@ -36,6 +38,7 @@ footer {
 nav ul, nav li {
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 nav li {
     list-style-type: none;
@@ -43,16 +46,21 @@ nav li {
     text-align: center;
     padding: 8px;
     margin: 5px;
-    color: darkblue;
-    border: solid 1px darkblue;
-    border-radius: 10px;
+    box-shadow: black 2px;
+    text-decoration: none;
+
+}
+nav li:active {
+    color: black;
 }
 nav li:hover {
-    background-color: darkblue;
-    color: cyan;
+    background-color: #EC5A1E;
+    text-decoration: none;
+    color: rgb(247, 238, 226);
 }
 .azulo {
-    color: darkblue;
+    color: black;
+    font-size: 26px;
 }
 a {
     text-decoration: none;
@@ -61,8 +69,9 @@ a {
     text-align: center;
 }
 .titulo {
-    color: darkblue;
+    color: black;
     text-align: center;
+    font-size: 26px;
 }
 .etiqueta {
     font-size: 34px;
@@ -75,6 +84,9 @@ a {
     color: rgb(255, 157, 0);
     font-weight: bold;
     font-size: 20px;
+}
+#principal {
+    background-color: rgb(247, 238, 226);
 }
 #tablas table {
     width: 60%;
@@ -103,9 +115,11 @@ a {
 }
 #thorario th {
     color: #008080;
+    font-size: 16px;
 }
 #thorario td, #thorario th,#thorario table {
     border: solid 1px black;
+    font-size: 16px;
 }
 .lm {
     background-color: #01B95C;
@@ -132,8 +146,10 @@ a {
 .bdd {
     background-color: #64AA96;
 }
-#lcustom li {
+#lcustom li li li {
     list-style-type: lower-alpha;
+    list-style-type: lower-greek;
+    list-style-type: lower-latin;
 }
 #formbasico fieldset {
     width: 50%;
@@ -154,6 +170,5 @@ a {
 }
 #formhtml5 fieldset {
     padding: 10px;
-    border-color: darkseagreen;
     border-radius: 10px;
 }
